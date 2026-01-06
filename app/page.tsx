@@ -1,9 +1,5 @@
-import React from 'react'
+import { HomeView } from "@/views";
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
+export default function Home() {
+  return <HomeView />;
 }
-
-export default page
